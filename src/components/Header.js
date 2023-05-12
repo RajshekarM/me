@@ -18,15 +18,15 @@ const socials = [
   },
   {
     icon: faGithub,
-    url: "https://github.com",
+    url: "https://github.com/RajshekarM/profile",
   },
   {
     icon: faLinkedin,
-    url: "https://www.linkedin.com",
+    url: "https://www.linkedin.com/in/rajshekarmudigonda/",
   },
   {
     icon: faMedium,
-    url: "https://medium.com",
+    url: "https://medium.com/@rajshekarmg97",
   },
   {
     icon: faStackOverflow,
