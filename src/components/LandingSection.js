@@ -1,14 +1,13 @@
 import React from "react";
 import { Avatar, Heading, VStack, Text } from "@chakra-ui/react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import FullScreenSection from "./FullScreenSection";
 
-const greeting = "Hello, I am Rajashekar!";
-const bio1 = "A Software engineer";
-const bio2 = "with passion for full stack development";
-const bio3 = " Thanks for visiting! Explore my site to learn more about me, my background and what I have to offer.";
-const bio4 = "If you have questions or would like to discuss an opportunity to work together, feel free to get in touch.";
-const bio5 = "It has a Continue Integration(CI) with azure devops and Continuous Deployment(CD) with Azure Cloud";
-
+const greeting = "Hello there, I'm Rajashekar";
+const bio1 = "a Software engineer";
+const bio2 = "with a keen interest in Software development, Robotics, Computer vision and deep learning"
+ const bio3 = ""
+ 
 // Implement the UI for the LandingSection component according to the instructions.
 // Use a combination of Avatar, Heading and VStack components.
 const LandingSection = () => (
@@ -22,9 +21,9 @@ const LandingSection = () => (
     <Text>{greeting}</Text>
     <VStack>
       <Heading>{bio1}</Heading>
-      <Heading>{bio2}</Heading>
-      <Text><i>{bio3 }</i></Text>
-      <Text><i>{bio4}</i></Text>
+     
+      <Text><FontAwesomeIcon icon="fa-solid fa-robot" />{bio2}</Text>
+      <Text>{bio3}</Text> 
     </VStack>
   </FullScreenSection>
 );
