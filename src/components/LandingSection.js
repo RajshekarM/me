@@ -5,7 +5,7 @@ import FullScreenSection from "./FullScreenSection";
 
 const greeting = "Hello there, I'm Rajashekar";
 const bio1 = "a Software engineer";
-const bio2 = "with a keen interest in Software development, Robotics, Computer vision and deep learning"
+const bio2 = "with a keen interest in Software development, Computer vision and deep learning"
  const bio3 = ""
  
 // Implement the UI for the LandingSection component according to the instructions.
