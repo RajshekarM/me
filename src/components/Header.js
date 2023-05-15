@@ -18,7 +18,7 @@ const socials = [
   },
   {
     icon: faGithub,
-    url: "https://github.com/RajshekarM/profile",
+    url: "https://github.com/RajshekarM/",
   },
   {
     icon: faLinkedin,
