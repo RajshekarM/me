@@ -2,6 +2,7 @@ import React from "react";
 import { Avatar, Heading, VStack, Text } from "@chakra-ui/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import FullScreenSection from "./FullScreenSection";
+import img from '../images/profile.jpg'
 
 const greeting = "Hello there, I'm Rajashekar";
 const bio1 = "a Software engineer";
@@ -17,7 +18,7 @@ const LandingSection = () => (
     isDarkBackground
     backgroundColor="#2A4365"
   >
-    <Avatar size= "2xl" src="/images/profile.jpg"></Avatar>
+    <Avatar size= "2xl" src={img}></Avatar>
     <Text>{greeting}</Text>
     <VStack>
       <Heading>{bio1}</Heading>
