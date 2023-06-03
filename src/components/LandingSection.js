@@ -17,6 +17,7 @@ const LandingSection = () => (
     alignItems="center"
     isDarkBackground
     backgroundColor="#2A4365"
+    id="landing-section"
   >
     <Avatar size= "2xl" src={img}></Avatar>
     <Text>{greeting}</Text>
